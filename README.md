@@ -91,7 +91,3 @@ Once the diagram renders:
 - **Double-click** a node to open its edit page in a new tab
 - Use the **Fit View** button to re-center the diagram
 - Use the **Download PNG** button to export the diagram as an image
-
-## License
-
-Mozilla Public License 1.1 — see [http://www.mozilla.org/MPL/](http://www.mozilla.org/MPL/)
