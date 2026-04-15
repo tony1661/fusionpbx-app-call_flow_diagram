@@ -1,23 +1,26 @@
 # Call Flow Diagram for FusionPBX
-
-A visual call flow diagram app for [FusionPBX](https://www.fusionpbx.com). Select any starting point — inbound route, IVR menu, ring group, call flow, time condition, or extension — and the app traces the full routing path and renders it as an interactive diagram.
+A visual call flow diagram app for [FusionPBX](https://www.fusionpbx.com). Select any starting point
+ - inbound route
+ - IVR menu
+ - ring group
+ - call flow
+ - time condition
+ - extension
+ - call center
+and the app traces the full routing path and renders it as an interactive diagram.
 
 ## Features
-
 - Color-coded nodes by type (inbound route, IVR, ring group, call flow, time condition, extension, voicemail, hangup, external)
 - Live extension registration status inside ring group nodes (🟢 registered / 🔴 unregistered)
 - Extensions are listed inline inside ring group nodes rather than as separate connected boxes
-- Nodes are placed on the correct hierarchical level — siblings always appear on the same row
-- Freely draggable canvas — move nodes in any direction after the diagram renders
+- Freely draggable canvas. Move nodes in any direction after the diagram renders
 - Double-click any node to open its edit page in a new tab
 - Download the diagram as a PNG
 - Fit view button to re-center the diagram
 
 ## Requirements
-
 - FusionPBX 5.x or later
 - PHP 8.0+
-- A working FreeSWITCH event socket connection (required for live registration status)
 
 ## Installation
 
