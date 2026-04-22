@@ -30,7 +30,7 @@ SSH into your FusionPBX server and clone the app into the FusionPBX apps directo
 
 ```bash
 cd /var/www/fusionpbx/app
-git clone https://github.com/your-username/call_flow_diagram.git call_flow_diagram
+git clone https://github.com/tony1661/fusionpbx-app-call_flow_diagram call_flow_diagram
 ```
 
 ### 2. Set ownership
